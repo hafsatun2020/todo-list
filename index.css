@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: honeydew;
+    font-family: cursive; 
+    text-align: center
+}
+.conatiner {
+    width: 400px;
+   
+    display: block ;
+   margin: 10px auto;
+   padding: 18px;
+}
+
+
+.outer{
+     border: 2px yellowgreen solid;
+    width: 100%;
+    display: flex;
+     flex-direction: row; 
+     align-items: center;
+     margin: 5px;
+     padding: 10px;
+    justify-content: space-between;
+
+    
+}
+
+input {
+    font-family: cursive; 
+    padding: 10px;
+}
+
